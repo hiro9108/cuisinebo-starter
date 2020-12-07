@@ -68,7 +68,7 @@
 
 @media only screen and (max-width: 840px) {
   h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   header a {
     font-size: 0.6rem;
@@ -114,16 +114,12 @@
     margin: initial;
     padding: initial;
   }
-
   .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="Play"] {
     width: 100px;
   }
 
-  /* todo steps */
-
   .section-cities .row:nth-child(2) {
     flex-direction: column;
-    /* background-color: red; */
   }
   .section-cities .row:nth-child(2) .col:not(:nth-child(1)) {
     margin-left: initial;
@@ -150,39 +146,29 @@
     width: auto;
   }
 
-  .section-form .contact-form .row {
-    /* background-color: red; */
-  }
-
   .section-form .row:nth-child(2) .row:not(:nth-child(6)) {
     flex-direction: column;
   }
-
   .section-form .contact-form input[type="text"],
   .section-form .contact-form input[type="email"] {
     height: 30px;
     width: 233px;
   }
-
   .section-form .contact-form select {
     height: 36px;
     width: 241px;
   }
-
   .section-form .contact-form textarea {
     height: 90px;
     width: 235px;
   }
-
   footer .row:nth-child(1) .footer-nav li a {
     font-size: 10px;
     display: inline-block;
   }
-
   footer .row:nth-child(1) .footer-nav li:not(:first-child) a {
     margin-left: 8px;
   }
-
   footer .row:nth-child(1) .social-links {
     font-size: 10px;
   }

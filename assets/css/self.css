@@ -197,12 +197,12 @@ header .hero-text-box .btn.btn-ghost {
  * section01: features.
  */
 
-.section-features {
-}
+/* .section-features {
+} */
 
-.section-features .row:nth-child(1) {
-  /* background-color: lightcoral; */
-}
+/* .section-features .row:nth-child(1) {
+  background-color: lightcoral;
+} */
 
 .section-features .row:nth-child(2) {
   display: flex;
@@ -230,8 +230,8 @@ header .hero-text-box .btn.btn-ghost {
  * section02: meals.
  */
 
-.section-meals {
-}
+/* .section-meals {
+} */
 
 .section-meals .meals-showcase {
   display: flex;
@@ -311,8 +311,8 @@ header .hero-text-box .btn.btn-ghost {
  * section04: cities.
  */
 
-.section-cities {
-}
+/* .section-cities {
+} */
 
 .section-cities .row:nth-child(2) {
   display: flex;
@@ -367,9 +367,9 @@ header .hero-text-box .btn.btn-ghost {
   color: white;
 }
 
-.section-testimonials .row:nth-child(1) {
-  /* background-color: red; */
-}
+/* .section-testimonials .row:nth-child(1) {
+  background-color: red;
+} */
 
 .section-testimonials .row:nth-child(1) h2 {
   padding-top: 48px;
@@ -438,10 +438,6 @@ header .hero-text-box .btn.btn-ghost {
   font-size: 20px;
 }
 
-.section-plans .row:nth-child(2) .plan-box .plan-price-meal {
-  /* font-size: 1rem; */
-}
-
 .section-plans .row:nth-child(2) .plan-box div:nth-child(3) {
   text-align: center;
 }
@@ -473,16 +469,16 @@ header .hero-text-box .btn.btn-ghost {
  * section07: form.
  */
 
-.section-form {
-}
+/* .section-form {
+} */
 
 .section-form .contact-form .row:not(:nth-child(5)) {
   margin-bottom: 12px;
 }
 
-.section-form .row:nth-child(2) {
-  /* background-color: lightcoral; */
-}
+/* .section-form .row:nth-child(2) {
+  background-color: lightcoral;
+} */
 
 .section-form .row:nth-child(2) .row:not(:nth-child(6)) {
   display: flex;
