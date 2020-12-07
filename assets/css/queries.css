@@ -45,6 +45,15 @@
   header nav .logo {
     width: 120px;
   }
+  header nav .main-nav {
+    display: none;
+  }
+
+  header nav .mobile-nav-icon {
+    display: block;
+    font-size: 42px;
+  }
+
   header .hero-text-box h1 {
     font-size: 32px;
   }
@@ -54,5 +63,124 @@
 
   header .hero-text-box .btn.btn-ghost {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  header a {
+    font-size: 0.6rem;
+  }
+  header nav .logo {
+    width: 60px;
+    margin-right: 8px;
+  }
+  header .hero-text-box h1 {
+    font-size: 22px;
+  }
+  .section-features .row:nth-child(2) .col:not(:nth-child(1)) {
+    margin-left: initial;
+  }
+  .section-features .row:nth-child(2) {
+    flex-direction: column;
+    margin: 52px;
+  }
+  .section-features .row:nth-child(2) div:not(:last-of-type) {
+    margin-bottom: 52px;
+  }
+
+  /* todo steps */
+  .section-steps .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .section-steps .row:nth-child(2) .col:nth-child(1) .app-screen {
+    margin-left: initial;
+    width: 50%;
+  }
+  .section-steps .row:nth-child(2) .col:first-of-type {
+    text-align: center;
+  }
+  .section-steps .row:nth-child(2) .col:nth-child(2) .works-step div {
+    margin-left: 44px;
+  }
+  .section-steps .row:nth-child(2) .col:nth-child(2) .works-step p {
+    display: inline-block;
+    margin-left: 106px;
+  }
+  .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="App"] {
+    width: 120px;
+    margin: initial;
+    padding: initial;
+  }
+
+  .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="Play"] {
+    width: 100px;
+  }
+
+  /* todo steps */
+
+  .section-cities .row:nth-child(2) {
+    flex-direction: column;
+    /* background-color: red; */
+  }
+  .section-cities .row:nth-child(2) .col:not(:nth-child(1)) {
+    margin-left: initial;
+  }
+  .section-cities .row:nth-child(2) .col:not(:last-of-type) {
+    margin-bottom: 52px;
+  }
+
+  .section-testimonials .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .section-testimonials .row:nth-child(2) .col:not(:nth-child(1)) {
+    margin-left: initial;
+  }
+  .section-testimonials .row .col {
+    width: auto;
+  }
+
+  .section-plans .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .section-plans .row:nth-child(2) .col {
+    margin-bottom: 52px;
+    width: auto;
+  }
+
+  .section-form .contact-form .row {
+    /* background-color: red; */
+  }
+
+  .section-form .row:nth-child(2) .row:not(:nth-child(6)) {
+    flex-direction: column;
+  }
+
+  .section-form .contact-form input[type="text"],
+  .section-form .contact-form input[type="email"] {
+    height: 30px;
+    width: 233px;
+  }
+
+  .section-form .contact-form select {
+    height: 36px;
+    width: 241px;
+  }
+
+  .section-form .contact-form textarea {
+    height: 90px;
+    width: 235px;
+  }
+
+  footer .row:nth-child(1) .footer-nav li a {
+    font-size: 10px;
+    display: inline-block;
+  }
+
+  footer .row:nth-child(1) .footer-nav li:not(:first-child) a {
+    margin-left: 8px;
+  }
+
+  footer .row:nth-child(1) .social-links {
+    font-size: 10px;
   }
 }
