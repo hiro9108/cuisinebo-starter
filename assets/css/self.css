@@ -156,6 +156,7 @@ header .hero-text-box {
 
 header nav .row {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   /* background-color: pink; */
 }
