@@ -1,0 +1,587 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+/**
+ * Remove default.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Frank+Ruhl+Libre:wght@300&family=Fredericka+the+Great&display=swap");
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+blockquote {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 72px;
+  text-align: center;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100px;
+  left: 50%;
+  bottom: -20px;
+  display: block;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  background-color: orange;
+}
+
+header,
+section:not(:nth-child(3)),
+footer {
+  padding: 0 160px;
+}
+
+.btn.btn-full {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 24px;
+}
+
+.btn.btn-ghost {
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 24px;
+}
+
+/* todo check */
+.span-2-of-3 {
+  width: 66.13%;
+}
+
+.span-1-of-3 {
+  width: 32.26%;
+}
+
+.section-features,
+.section-meals,
+.section-cities,
+.section-testimonials,
+.section-form,
+footer {
+  margin-top: 115px;
+}
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+}
+
+blockquote {
+  font-family: "Courgette", cursive;
+}
+
+label,
+input,
+select,
+textarea {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/**
+ * header.
+ */
+
+header {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header nav {
+  padding-top: 24px;
+}
+
+header .hero-text-box {
+  position: absolute;
+  top: 50%;
+  /* background-color: lawngreen; */
+}
+
+header nav .row {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+
+header nav .logo {
+  width: 180px;
+}
+
+header nav .main-nav {
+  font-size: 18px;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+header nav .main-nav li:not(:last-child) a {
+  margin-right: 42px;
+}
+
+header .hero-text-box h1 {
+  font-size: 52px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header .hero-text-box .btn.btn-full {
+  font-size: 22px;
+  padding: 8px 24px;
+  margin-right: 16px;
+}
+
+header .hero-text-box .btn.btn-ghost {
+  font-size: 22px;
+  padding: 8px 24px;
+}
+
+/**
+ * section01: features.
+ */
+
+.section-features {
+}
+
+.section-features .row:nth-child(1) {
+  /* background-color: lightcoral; */
+}
+
+.section-features .row:nth-child(2) {
+  display: flex;
+}
+
+.section-features .row:nth-child(2) .col:not(:nth-child(1)) {
+  margin-left: 52px;
+}
+
+.section-features .row:nth-child(2) i {
+  font-size: 3rem;
+  color: orange;
+}
+
+.section-features .row:nth-child(2) h3 {
+  margin: 16px 0;
+}
+
+.section-features .row .long-copy {
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+/**
+ * section02: meals.
+ */
+
+.section-meals {
+}
+
+.section-meals .meals-showcase {
+  display: flex;
+}
+
+.section-meals .meals-showcase figure {
+  margin: 0;
+}
+
+.section-meals .meals-showcase img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/**
+ * section03: step.
+ */
+
+.section-steps {
+  background-color: rgb(240, 240, 240);
+}
+
+.section-steps .row:nth-child(1) h2 {
+  padding-top: 115px;
+}
+
+.section-steps .row:nth-child(2) {
+  display: flex;
+  padding-bottom: 115px;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(1) .app-screen {
+  margin-left: 240px;
+  width: 50%;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(2) .btn-app:first-of-type {
+  margin-left: 62px;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="App"] {
+  width: 140px;
+  margin-right: 12px;
+  padding-top: 50px;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="Play"] {
+  width: 120px;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(2) .works-step {
+  margin: 80px 0;
+  position: relative;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(2) .works-step div {
+  height: 40px;
+  width: 40px;
+  color: orange;
+  font-size: 18px;
+  border: 2px solid orange;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  /* margin-right: 24px; */
+  display: inline-block;
+  position: absolute;
+  margin-left: 62px;
+}
+
+.section-steps .row:nth-child(2) .col:nth-child(2) .works-step p {
+  display: inline-block;
+  margin-left: 124px;
+}
+
+/**
+ * section04: cities.
+ */
+
+.section-cities {
+}
+
+.section-cities .row:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.section-cities .row:nth-child(2) img {
+  width: 100%;
+}
+
+.section-cities .row:nth-child(2) .col:not(:nth-child(1)) {
+  margin-left: 24px;
+}
+
+.section-cities .row:nth-child(2) h3 {
+  margin: 12px 0;
+}
+
+.section-cities .row:nth-child(2) i {
+  color: orange;
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+}
+
+.section-cities .row a {
+  color: orange;
+}
+
+/**
+ * section05: testimonials.
+ */
+
+.section-testimonials {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/back-customers.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/back-customers.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.section-testimonials {
+  color: white;
+}
+
+.section-testimonials .row:nth-child(1) {
+  /* background-color: red; */
+}
+
+.section-testimonials .row:nth-child(1) h2 {
+  padding-top: 48px;
+}
+
+.section-testimonials .row:nth-child(2) {
+  display: flex;
+  /* background-color: blue; */
+}
+
+.section-testimonials .row:nth-child(2) .col:not(:nth-child(1)) {
+  margin-left: 24px;
+}
+
+.section-testimonials .row .col blockquote cite {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  display: block;
+  position: relative;
+}
+
+.section-testimonials .row .col blockquote cite span {
+  position: absolute;
+  top: 30%;
+}
+
+.section-testimonials .row img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+/**
+ * section06: plans.
+ */
+
+.section-plans {
+  background-color: rgb(240, 240, 240);
+}
+
+.section-plans .row:nth-child(1) h2 {
+  padding-top: 115px;
+}
+
+.section-plans .row:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 115px;
+}
+
+.section-plans .row:nth-child(2) .plan-box {
+  margin: 24px;
+}
+
+.section-plans .row:nth-child(2) .plan-box div:not(:nth-child(1)) {
+  margin-top: 24px;
+}
+
+.section-plans .row:nth-child(2) .plan-box .plan-price {
+  font-size: 50px;
+  color: orange;
+  margin: 8px 0;
+}
+
+.section-plans .row:nth-child(2) .plan-box .plan-price span {
+  font-size: 20px;
+}
+
+.section-plans .row:nth-child(2) .plan-box .plan-price-meal {
+  /* font-size: 1rem; */
+}
+
+.section-plans .row:nth-child(2) .plan-box div:nth-child(3) {
+  text-align: center;
+}
+
+.section-plans .row:nth-child(2) .plan-box i {
+  font-size: 30px;
+  color: orange;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.section-plans .row:nth-child(2) .col {
+  background-color: white;
+}
+
+.section-plans .row:nth-child(2) .btn.btn-full {
+  font-size: 16px;
+  padding: 8px;
+  display: inline-block;
+}
+
+.section-plans .row:nth-child(2) .btn.btn-ghost {
+  font-size: 16px;
+  padding: 8px;
+  display: inline-block;
+}
+
+/**
+ * section07: form.
+ */
+
+.section-form {
+}
+
+.section-form .contact-form .row:not(:nth-child(5)) {
+  margin-bottom: 12px;
+}
+
+.section-form .row:nth-child(2) {
+  /* background-color: lightcoral; */
+}
+
+.section-form .row:nth-child(2) .row:not(:nth-child(6)) {
+  display: flex;
+  justify-content: center;
+}
+
+.section-form .row:nth-child(2) .row:not(:nth-child(6)) .col {
+  padding-right: 70px;
+  width: 150px;
+  margin: 0 50px;
+  display: inline-block;
+}
+
+.section-form .row:nth-child(2) .row:nth-child(6) {
+  text-align: center;
+}
+
+.section-form .contact-form input[type="text"],
+.section-form .contact-form input[type="email"] {
+  height: 30px;
+  width: 280px;
+}
+
+.section-form .contact-form select {
+  height: 36px;
+  width: 288px;
+}
+
+.section-form .contact-form textarea {
+  height: 90px;
+  width: 282px;
+}
+
+.section-form .contact-form input[type="submit"] {
+  color: white;
+  background-color: orange;
+  border: 0;
+  border-radius: 24px;
+  font-size: 16px;
+  width: 100px;
+  padding: 8px;
+  display: inline-block;
+}
+
+/**
+ * footer.
+ */
+
+footer {
+  height: 150px;
+  padding-bottom: 24px;
+  background-color: rgb(50, 50, 56);
+}
+
+footer,
+footer a {
+  color: rgba(129, 129, 129, 0.767);
+}
+
+footer .row:nth-child(1) {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .row:nth-child(1) .footer-nav {
+  display: flex;
+}
+
+footer .row:nth-child(1) .footer-nav li:not(:first-child) a {
+  margin-left: 20px;
+}
+
+footer .row:nth-child(1) .social-links {
+  display: flex;
+  font-size: 22px;
+}
+
+footer .row:nth-child(1) .social-links li:not(:last-child) a {
+  margin-right: 20px;
+}
+
+footer .row:nth-child(2) {
+  height: 100px;
+}
+
+footer .row:nth-child(2) p {
+  text-align: center;
+}
+
+footer .row:nth-child(2) p:nth-child(1) {
+  padding: 12px 0;
+}
+
+/**
+ * For mobile.
+ */
+
+.mobile-nav-icon {
+  display: none;
+}
