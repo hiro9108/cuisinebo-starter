@@ -78,7 +78,7 @@ h2::after {
 header,
 section:not(:nth-child(3)),
 footer {
-  padding: 0 160px;
+  padding: 0 90px;
 }
 
 .btn.btn-full {
@@ -263,8 +263,12 @@ header .hero-text-box .btn.btn-ghost {
   padding-bottom: 115px;
 }
 
+.section-steps .row:nth-child(2) .col:nth-child(1) {
+  text-align: center;
+  margin: auto 0;
+}
+
 .section-steps .row:nth-child(2) .col:nth-child(1) .app-screen {
-  margin-left: 240px;
   width: 50%;
 }
 
@@ -273,13 +277,12 @@ header .hero-text-box .btn.btn-ghost {
 }
 
 .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="App"] {
-  width: 140px;
+  width: 28%;
   margin-right: 12px;
-  padding-top: 50px;
 }
 
 .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="Play"] {
-  width: 120px;
+  width: 25%;
 }
 
 .section-steps .row:nth-child(2) .col:nth-child(2) .works-step {
@@ -296,15 +299,13 @@ header .hero-text-box .btn.btn-ghost {
   border-radius: 50%;
   line-height: 40px;
   text-align: center;
-  /* margin-right: 24px; */
   display: inline-block;
   position: absolute;
-  margin-left: 62px;
 }
 
 .section-steps .row:nth-child(2) .col:nth-child(2) .works-step p {
   display: inline-block;
-  margin-left: 124px;
+  margin-left: 62px;
 }
 
 /**
@@ -367,21 +368,17 @@ header .hero-text-box .btn.btn-ghost {
   color: white;
 }
 
-/* .section-testimonials .row:nth-child(1) {
-  background-color: red;
-} */
-
 .section-testimonials .row:nth-child(1) h2 {
   padding-top: 48px;
 }
 
 .section-testimonials .row:nth-child(2) {
   display: flex;
-  /* background-color: blue; */
+  justify-content: space-between;
 }
 
 .section-testimonials .row:nth-child(2) .col:not(:nth-child(1)) {
-  margin-left: 24px;
+  /* margin-left: 24px; */
 }
 
 .section-testimonials .row .col blockquote cite {
@@ -420,6 +417,11 @@ header .hero-text-box .btn.btn-ghost {
   padding-bottom: 115px;
 }
 
+.section-plans .row:nth-child(2) .col {
+  margin: 0 auto;
+  background-color: white;
+}
+
 .section-plans .row:nth-child(2) .plan-box {
   margin: 24px;
 }
@@ -447,10 +449,6 @@ header .hero-text-box .btn.btn-ghost {
   color: orange;
   display: inline-block;
   margin: 0 10px;
-}
-
-.section-plans .row:nth-child(2) .col {
-  background-color: white;
 }
 
 .section-plans .row:nth-child(2) .btn.btn-full {
@@ -565,10 +563,7 @@ footer .row:nth-child(2) p:nth-child(1) {
   padding: 12px 0;
 }
 
-/**
- * For mobile.
- */
-
+/* For mobile */
 .mobile-nav-icon {
   display: none;
 }

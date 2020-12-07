@@ -1,41 +1,12 @@
-/* Big tablet to 1200px (widths smaller taht the 1140px row) */
-@media only screen and (max-width: 1200px) {
-}
-
-/* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1180px) {
-  header,
-  section:not(:nth-child(3)),
-  footer {
-    padding: 0 80px;
+@media only screen and (max-width: 980px) {
+  h2 {
+    font-size: 1rem;
   }
-}
-
-@media only screen and (max-width: 1015px) {
-  header,
-  section:not(:nth-child(3)),
-  footer {
-    padding: 0 40px;
-  }
-}
-
-@media only screen and (max-width: 935px) {
-  header,
-  section:not(:nth-child(3)),
-  footer {
-    padding: 0 20px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  /* h1,
-  h2,
-  h3,
   p,
   a,
   li {
     font-size: 0.9rem;
-  } */
+  }
   header,
   section:not(:nth-child(3)),
   footer {
@@ -52,23 +23,6 @@
   header nav .mobile-nav-icon {
     display: block;
     font-size: 42px;
-  }
-
-  header .hero-text-box h1 {
-    font-size: 32px;
-  }
-  header .hero-text-box .btn.btn-full {
-    font-size: 12px;
-  }
-
-  header .hero-text-box .btn.btn-ghost {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (max-width: 840px) {
-  h2 {
-    font-size: 1rem;
   }
   header a {
     font-size: 0.6rem;
@@ -103,11 +57,11 @@
     text-align: center;
   }
   .section-steps .row:nth-child(2) .col:nth-child(2) .works-step div {
-    margin-left: 44px;
+    margin-left: 12px;
   }
   .section-steps .row:nth-child(2) .col:nth-child(2) .works-step p {
     display: inline-block;
-    margin-left: 106px;
+    margin-left: 80px;
   }
   .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="App"] {
     width: 120px;
@@ -117,6 +71,8 @@
   .section-steps .row:nth-child(2) .col:nth-child(2) .btn-app img[alt^="Play"] {
     width: 100px;
   }
+
+  /* */
 
   .section-cities .row:nth-child(2) {
     flex-direction: column;
