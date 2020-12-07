@@ -469,27 +469,18 @@ header .hero-text-box .btn.btn-ghost {
  * section07: form.
  */
 
-/* .section-form {
-} */
-
 .section-form .contact-form .row:not(:nth-child(5)) {
   margin-bottom: 12px;
 }
 
-/* .section-form .row:nth-child(2) {
-  background-color: lightcoral;
-} */
-
 .section-form .row:nth-child(2) .row:not(:nth-child(6)) {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .section-form .row:nth-child(2) .row:not(:nth-child(6)) .col {
-  padding-right: 70px;
-  width: 150px;
-  margin: 0 50px;
-  display: inline-block;
+  width: 260px;
 }
 
 .section-form .row:nth-child(2) .row:nth-child(6) {
@@ -499,17 +490,17 @@ header .hero-text-box .btn.btn-ghost {
 .section-form .contact-form input[type="text"],
 .section-form .contact-form input[type="email"] {
   height: 30px;
-  width: 280px;
+  width: 100%;
 }
 
 .section-form .contact-form select {
   height: 36px;
-  width: 288px;
+  width: 100%;
 }
 
 .section-form .contact-form textarea {
   height: 90px;
-  width: 282px;
+  width: 100%;
 }
 
 .section-form .contact-form input[type="submit"] {

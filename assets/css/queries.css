@@ -28,14 +28,14 @@
 }
 
 @media only screen and (max-width: 900px) {
-  h1,
+  /* h1,
   h2,
   h3,
   p,
   a,
   li {
     font-size: 0.9rem;
-  }
+  } */
   header,
   section:not(:nth-child(3)),
   footer {
@@ -146,22 +146,15 @@
     width: auto;
   }
 
+  /* form for mobile */
+
   .section-form .row:nth-child(2) .row:not(:nth-child(6)) {
     flex-direction: column;
+    margin-bottom: 18px;
   }
-  .section-form .contact-form input[type="text"],
-  .section-form .contact-form input[type="email"] {
-    height: 30px;
-    width: 233px;
-  }
-  .section-form .contact-form select {
-    height: 36px;
-    width: 241px;
-  }
-  .section-form .contact-form textarea {
-    height: 90px;
-    width: 235px;
-  }
+
+  /* */
+
   footer .row:nth-child(1) .footer-nav li a {
     font-size: 10px;
     display: inline-block;
