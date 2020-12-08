@@ -45,7 +45,17 @@
     margin-bottom: 52px;
   }
 
-  /* todo steps */
+  /* meal */
+
+  .section-meals .meals-showcase img {
+    width: 100%;
+  }
+
+  .meals-showcase .meal-photo {
+    top: 20px;
+  }
+
+  /* steps */
   .section-steps .row:nth-child(2) {
     flex-direction: column;
   }
