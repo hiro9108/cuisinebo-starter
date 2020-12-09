@@ -312,9 +312,6 @@ header .hero-text-box .btn.btn-ghost {
  * section04: cities.
  */
 
-/* .section-cities {
-} */
-
 .section-cities .row:nth-child(2) {
   display: flex;
   justify-content: space-between;
@@ -331,6 +328,11 @@ header .hero-text-box .btn.btn-ghost {
 
 .section-cities .row:nth-child(2) h3 {
   margin: 12px 0;
+}
+
+.section-cities .row:nth-child(2) .city-feature {
+  display: flex;
+  align-items: center;
 }
 
 .section-cities .row:nth-child(2) i {
@@ -442,6 +444,11 @@ header .hero-text-box .btn.btn-ghost {
 
 .section-plans .row:nth-child(2) .plan-box div:nth-child(3) {
   text-align: center;
+}
+
+.section-plans .row:nth-child(2) .plan-box li {
+  display: flex;
+  align-items: center;
 }
 
 .section-plans .row:nth-child(2) .plan-box i {
